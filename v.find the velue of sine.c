@@ -8,7 +8,7 @@ int main(){
     scanf("%lf",&x);
     z=x*PI/180;
   y=sin(z);
-  printf("the value of sin%lf is %lf",x,y);
+  printf("the value of sin%lf is %lf",x,y);N
 
     return 0;
 
