@@ -6,7 +6,7 @@ int main(){
     int n;
     printf("enter the roots a,b,c");
     scanf("%f%f%f",&a,&b,&c);
-     d=b*b-4*a*c;
+     d=b*b-4*a*c; //condition
     if(d==0){
         n=1;
     }
