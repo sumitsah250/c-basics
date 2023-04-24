@@ -1,4 +1,5 @@
-// logic is to divide the given number from 2 to just less than that number and see if remainder appers 0 or not if no remainder is zero then its a prime nmber
+// logic is to divide the given number from 2 to that number until the remainder is zero and check whether the number where the remainder is zero is itself or not if its itself then print its a prime number
+N
 #include<stdio.h>
 int main(){
     int a,b,i,j;
