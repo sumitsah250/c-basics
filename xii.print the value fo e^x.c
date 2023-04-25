@@ -3,21 +3,21 @@
 
 #include<stdio.h>
 #include<math.h>
-int manin(){
+#include<conio.h>
+int main(){
     int x,n;
     int num,den;
     float s=0;
     printf("enter the value ofx and n");
     scanf("%d%d",&x,&n);
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<=n;i++){
         num=pow(x,i);
         den=1;
         for(int j =1;j<i;j++){
              den=den* j;
         }
         s=s+num/den;
+         printf("the e^%d upto %d terms is:%f",x,n,s);  
        
     }
-    printf("the e^%d upto %d terms is:%f",x,n,s);
-
 }
