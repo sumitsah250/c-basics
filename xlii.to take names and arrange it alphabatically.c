@@ -22,14 +22,17 @@ void arrange(char a[10][20])
 {
     int d;
     char temp[20];
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 4-1; i++)
     {
-        d = strcmp(a[i], a[i + 1]);
-        if (d > 0)
+        for(int j=i+1;j<4;j++){
+
+        
+        d = strcmp(a[j], a[i]);
+        if (d < 0)
         {
-            strcpy(temp, a[i + 1]);
-            strcpy(a[i + 1], a[i]);
+            strcpy(temp, a[j]);
+            strcpy(a[j], a[i]);
             strcpy(a[i], temp);
         }
-    }
+    }}
 }
