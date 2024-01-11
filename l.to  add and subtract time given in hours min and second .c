@@ -5,6 +5,7 @@ struct time {
     int min;
     int second;
 };
+//sabin bhattarai
 int main(){
     struct time t1,t2,result;
      int a;
